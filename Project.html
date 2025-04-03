@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<script type="text/javascript">
+			function openNav() {
+  				document.getElementById("otherlanguage-div").style.width = "250px";
+			}
+
+			function closeNav() {
+ 				 document.getElementById("otherlanguage-div").style.width = "0";
+			}
+		</script>
+		<title>ProgrammingLanguageLearning</title>
+	</head>
+	<body>
+		<div class = "language-div">
+			<nav class = "language-div-nav">
+				<img class = "language-div-nav-img" src = "imgs/photo.jpg" alt = "Logo">
+				<ul>
+					<li><a href = "Project.html">Головна</a></li>
+					<li><a href = "HTML/HTML.html">HTML</a></li>
+					<li><a href = "CSS/CSS.html">CSS</a></li>
+					<li><a href = "JS/JS.html">JavaScript</a></li>
+					<li><a href = "Python/Python.html">Python</a></li>
+					<li><p onclick = "openNav()">&#9776; Інше</p></li>
+					<li>
+						<form action = "#">
+							<input type = "text" placeholder = "Login" required>
+							<input type = "password" placeholder = "Password" required>
+							<input type = "submit" value = "Sign in">
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div id = "otherlanguage-div">
+			<ul>
+				<li><a href = "javascript:void(0)" onclick = "closeNav()" class = "church">&times;</a></li>
+				<li><a href = "form/form.html">Зв'язок</a></li>
+				<li><a href = "er.html">?</a></li>
+			</ul>
+		</div>
+		<div class = "div-main">
+			<div class = "div-main-language1">
+				<div class = "div-main-language1-text">
+					<h1>HTML</h1>
+					<h2>Мова гіпертикстової розмітки</h2>
+					<nav class = "animation-class div-main-language1-text-nav">
+						<a href = "HTML/HTML.html">Вивчити</a>
+						<a href = "er.html">Документація</a>
+					</nav>
+				</div>
+				<div class = "animation-class-img div-main-language1-imgs">
+					<img src = "imgs/photo1.jpg"  width = "200" height = "200" alt = "HTML photo">			
+				</div>
+			</div>
+			<div class = "div-main-language2">
+				<div class = "animation-class-img div-main-language2-imgs">
+					<img src = "imgs/photo2.jpg" width = "200" height = "200" alt = "CSS photo">
+				</div>
+				<div class = "div-main-language2-text">
+					<h1>CSS</h1>
+					<h2>Опис зовнішньго виду сайту</h2>
+					<nav class = "animation-class div-main-language2-text-nav">
+						<a href = "CSS/CSS.html">Вивчити</a>
+						<a href = "er.html">Документація</a>
+					</nav>
+				</div>
+			</div>
+			<div class = "div-main-language3">
+				<div class = "div-main-language3-text">
+					<h1>JavaScript</h1>
+					<h2>Мова поведінки сторінки</h2>
+					<nav class = "animation-class div-main-language3-text-nav">
+						<a href = "JS/JS.html">Вивчити</a>
+						<a href = "er.html">Документація</a>
+					</nav>
+				</div>
+				<div class = "animation-class-img div-main-language3-imgs">
+					<img src = "imgs/photo3.jpg" width = "200" height = "200" alt = "JS photo">
+				</div>
+			</div>
+			<div class = "div-main-languages">
+				<a href = "Python/Python.html"><img src = "imgs/photo4.jpg" width = "250" height = "200" alt = "Python photo"></a>
+				<img src = "imgs/photo5.jpg" width = "300" height = "200" alt = "Some photo">
+				<img src = "imgs/photo5.jpg" width = "300" height = "200" alt = "Some photo">
+				<img src = "imgs/photo5.jpg" width = "300" height = "200" alt = "Some photo">
+			</div>
+		</div>	
+	</body>
+</html>

@@ -1,0 +1,268 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	float: left;
+	margin: 0;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.3em;
+	margin-top: 0.1em;
+	margin-bottom: 0;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1, h2 {
+	text-align: center;
+	animation: creating .9s;
+}
+
+footer {
+	margin-top: 10px; 
+	margin-left: -10px;
+	background-color: #ffffff;
+	height: 100px;
+}
+
+.language-div {
+	margin-left: -10px;
+	margin-top: -10px;
+	height: 100px;
+	background-color: #196db3;
+	animation: creating .9s;
+}
+
+.language-div-nav {
+	max-height: 100px;
+}
+
+.language-div-nav-img {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+
+.language-div-nav input {
+	margin-top: 2.5%;
+	margin-right: 25px;
+}
+
+.language-div-nav li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.language-div-nav a, .language-div-nav p {
+	color: #0f0f0f;
+	line-height: 4em;
+	font-size: 140%;
+	font-weight: bold;
+}
+
+.language-div-nav li a:hover {
+	color: #ffffff;
+}
+
+#otherlanguage-div {
+	margin-left: 50%;
+	margin-top: 5.15%; 
+  	width: 0;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	background-color: #196db3;
+  	overflow-x: hidden;
+  	transition: 1s;
+  	padding-top: 60px;
+}
+
+#otherlanguage-div a {
+	padding: 8px 8px 8px 10px;
+  	font-size: 25px;
+  	color: #0f0f0f;
+  	display: block;
+  	transition: 0.3s;
+}
+
+#otherlanguage-div .church {
+	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 36px;
+  	margin-left: 50px;
+}
+
+.div-main {
+	height: 100%;
+	margin-left: -10px;
+}
+
+.div-main-language1 {
+	height: 25%;
+	background-color: #f2f2f2;
+}
+
+.div-main-language1-text {
+	float: left;
+	width: 25%;
+	padding-top: 1%;
+	margin-left: 15%;
+}
+
+.div-main-language1-text-nav {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div-main-language1-text-nav a {
+	background-color: #696969;
+	color: #ffffff;
+	font-size: 150%;
+	padding: 8px 16px;
+}
+
+.div-main-language1-text-nav a:hover {
+	background-color: #999999;
+	color: #0f0f0f;
+}
+
+.div-main-language1-imgs {
+	padding-top: 1%;
+	margin-left: 65%;
+}
+
+.div-main-language2 {
+	height: 25%;
+	background-color: #ffffff;
+}
+
+.div-main-language2-imgs {
+	float: left;
+	width: 25%;
+	padding-top: 1%;
+	margin-left: 15%;
+}
+
+.div-main-language2-text {
+	padding-top: 1%;
+	margin-left: 60%;
+	margin-right: 15%;
+}
+
+.div-main-language2-text-nav {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div-main-language2-text-nav a {
+	background-color: #696969;
+	color: #ffffff;
+	font-size: 150%;
+	padding: 8px 16px
+}
+
+.div-main-language2-text-nav a:hover {
+	background-color: #999999;
+	color: #0f0f0f;
+}
+
+.div-main-language3 {
+	height: 25%;
+	background-color: #f2f2f2;
+}
+
+.div-main-language3-text {
+	float: left;
+	width: 25%;
+	padding-top: 1%;
+	margin-left: 15%;
+}
+
+.div-main-language3-text-nav {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.div-main-language3-text-nav a {
+	background-color: #696969;
+	color: #ffffff;
+	font-size: 150%;
+	padding: 8px 16px;
+}
+
+.div-main-language3-text-nav a:hover {
+	background-color: #999999;
+	color: #0f0f0f;
+}
+
+.div-main-language3-imgs {
+	padding-top: 1%;
+	margin-left: 65%;
+}
+
+.div-main-languages {
+	width: 100%;
+	height: 25%;
+	background-color: #8a8a8a;
+	display: inline-block;
+	text-align: center;
+}
+
+.div-main-languages img {
+	margin-top: 1%;
+	padding-right: 5%;
+	transform: scale(0.95);
+	transition: .3s;
+	max-width: 35%;
+}
+
+.div-main-languages img:hover {
+	transform: scale(1.25);
+}
+
+.animation-class a {
+	animation: spiner .9s;
+}
+
+.animation-class-img img {
+	animation: scaler .9s;
+}
+
+@keyframes creating {
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes spiner {
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+
+@keyframes scaler {
+	0%{transform: scale(1.75);}
+	100%{transform: scale(1);}
+}
